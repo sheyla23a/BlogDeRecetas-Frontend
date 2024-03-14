@@ -1,0 +1,34 @@
+{
+  "recetas": [
+    {
+      "nombreReceta": "tostada francesa",
+      "ingredientes": "4 rebanadas de pan (preferiblemente un poco duro), 2 huevos 1/2 taza de leche, 1 cucharadita de vainilla, 1 cucharadita de canela, Mantequilla (para cocinar)Jarabe de arce, frutas o azúcar en polvo (opcional, para servir)",
+      "imagen": "https://images.pexels.com/photos/14122642/pexels-photo-14122642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoria": "desayuno",
+      "dificultad": "facil",
+      "descripcionBreve": "Las tostadas francesas son un desayuno clásico.",
+      "descripcionAmplia": "Las tostadas francesas son un desayuno clásico y reconfortante. Para prepararlas, se mezclan los huevos, la leche, la vainilla y la canela en un tazón poco profundo. Se sumergen las rebanadas de pan en esta mezcla, asegurándose de que estén bien cubiertas pero no demasiado empapadas. En una sartén grande, se derrite un poco de mantequilla a fuego medio. Se colocan las rebanadas de pan empapadas en la sartén y se cocinan de 2 a 3 minutos por cada lado, o hasta que estén doradas y crujientes por fuera. Una vez cocidas, las tostadas francesas se pueden servir calientes, a menudo con jarabe de arce, frutas frescas como fresas o plátanos, o espolvoreadas con un poco de azúcar en polvo. Son perfectas para un desayuno indulgente o un brunch relajado. ¡Disfrútalas!",
+      "id": "e688"
+    },
+    {
+      "id": "962e",
+      "nombreReceta": "ravioles",
+      "ingredientes": "250g de ravioles, Agua, Sal, Aceite de oliva, Salsa de tomate, Queso parmesano rallado Albahaca fresca (opcional, para decorar)",
+      "imagen": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg",
+      "categoria": "vegano",
+      "dificultad": "intermedio",
+      "descripcionBreve": "Los ravioles son una pasta rellena tradicionalmente con queso, carne o vegetales.",
+      "descripcionAmplia": "Los ravioles son una pasta rellena de origen italiano que se puede encontrar con una variedad de rellenos, desde carne y queso hasta espinacas y ricota. Para prepararlos, se hierve agua en una olla grande con sal y un chorrito de aceite de oliva. Se agregan los ravioles y se cocinan de acuerdo con las instrucciones del paquete, generalmente de 4 a 5 minutos, o hasta que floten en la superficie. Una vez cocidos, se retiran con cuidado de la olla con una espumadera y se escurren bien. Luego, se pueden servir con salsa de tomate caliente y espolvoreados con queso parmesano rallado. Si se desea, se puede decorar con hojas de albahaca fresca para darle un toque de frescura y color. Los ravioles son una opción deliciosa y reconfortante que se puede disfrutar como plato principal en una comida familiar o como parte de un banquete italiano. ¡Buon appetito!"
+    },
+    {
+      "id": "25ae",
+      "nombreReceta": "Tarta de Manzana",
+      "ingredientes": "1 lámina de masa quebrada, 3-4 manzanas, 1/2 taza de azúcar, 1 cucharadita de canela, 2 cucharadas de mantequilla, Mermelada de albaricoque (opcional, para glasear)",
+      "imagen": "https://images.pexels.com/photos/7495213/pexels-photo-7495213.jpeg",
+      "categoria": "postre",
+      "dificultad": "intermedio",
+      "descripcionBreve": "La tarta de manzana es un clásico postre de la cocina tradicional.",
+      "descripcionAmplia": "Para preparar la tarta de manzana, primero se precalienta el horno a 180°C. Luego, se extiende la masa quebrada en un molde para tarta previamente engrasado y enharinado, asegurándose de cubrir bien el fondo y los bordes. Se pincha la base con un tenedor y se reserva. Se pelan las manzanas, se les quita el corazón y se cortan en rodajas finas. En un tazón, se mezclan las rodajas de manzana con el azúcar y la canela, asegurándose de que las manzanas estén bien cubiertas. Se coloca esta mezcla sobre la masa quebrada, distribuyéndola de manera uniforme. Se corta la mantequilla en trozos pequeños y se coloca sobre las manzanas. Se hornea la tarta en el horno precalentado durante aproximadamente 40-45 minutos, o hasta que la masa esté dorada y las manzanas estén tiernas. Una vez horneada, se saca la tarta del horno y se deja enfriar. Si se desea, se puede calentar un poco de mermelada de albaricoque y pincelarla sobre las manzanas para darle un brillo atractivo. La tarta de manzana se puede servir caliente o fría, sola o con una bola de helado de vainilla. ¡Deliciosa y perfecta para cualquier ocasión!"
+    }
+  ]
+}

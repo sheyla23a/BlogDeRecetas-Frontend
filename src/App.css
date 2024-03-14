@@ -1,0 +1,167 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.mainPage {
+  flex-grow: 1;
+}
+
+.titulosFuente {
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(32, 64, 59, 1);
+}
+
+#imagenCard {
+  height: 200px;
+}
+
+.fuenteLogo {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.background {
+  background: linear-gradient(
+    90deg,
+    rgba(32, 64, 59, 1) 0%,
+    rgba(120, 150, 121, 1) 15%,
+    rgba(66, 94, 46, 1) 100%
+  );
+}
+
+.colorPrincipal {
+  color: #20403b;
+}
+
+.colorSecundario {
+  color: #789679;
+}
+
+.colorTerciario {
+  color: #425e2e;
+}
+
+.bgNavFooter {
+  background-color: #20403b;
+}
+
+#contenBanner {
+  height: auto;
+}
+
+#imgBanner {
+  height: auto;
+  max-width: 100%;
+}
+
+.card-body {
+  background-color: #20403b;
+}
+.link-informacion {
+  text-decoration: dashed;
+  color: #20403b;
+}
+
+.cheft-card:hover {
+  transition: transform 0.3s;
+  transform: scale(1.1);
+}
+.agradecimientoPirola {
+  background-color: #789679;
+}
+
+.boton-carrusel {
+  background-color: #789679;
+}
+
+
+.bannerProducto{
+  background-color: #20403b;
+}
+
+.bannerProducto h2 {
+  margin-top: 2em;
+}
+
+.bannerProducto p{
+  font-size: 17px;
+  padding: 1em;
+}
+
+.listaIngredientes li{
+font-size: 20px;
+}
+
+.tamanioImagenReceta{
+  width: 25%;
+}
+
+.tamanioLetraError{
+  font-size: 60px;
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+  .categoria h3 {
+    font-size: 16px;
+  }
+  a.link-informacion {
+    font-size: 10px;
+  }
+
+  .boton-carrusel {
+    display: none;
+  }
+
+  .carrusel .img-fluid {
+    height: 180px;
+  }
+  .bannerProducto p{
+    font-size: 10px;
+    padding: 1;
+  }
+  .listaIngredientes li{
+    font-size: 15px;
+    }
+
+  .listaIngredientes h3{
+    font-size:20px ;
+  }
+  
+  .tamanioImagenReceta{
+    width: 100%;
+  }
+
+  .colorBoton{
+    background-color: #20403b;
+  }
+
+  .tamanioLetraError{
+    font-size: 30px;
+  }
+
+ 
+
+}
+@media (min-width: 500px) and (max-width: 770px) {
+  .bannerProducto p{
+    font-size: 15px;
+    padding: 1;
+  }
+
+  .tamanioImagenReceta{
+    width: 100%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991px) {
+  .tamanioImagenReceta{
+    width: 100%;
+  }
+}
