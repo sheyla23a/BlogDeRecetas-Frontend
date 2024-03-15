@@ -50,10 +50,15 @@ const Administrador = () => {
               />
             ))
           ) : (
-            <p className="text-center fw-bold">No hay recetas...</p>
+            <></>
           )}
         </tbody>
       </Table>
+      {recetas && recetas.length === 0 ? (
+        <p className="text-center fw-bold">No hay recetas...</p>
+      ) : (
+        <></>
+      )}
     </section>
   );
 };
