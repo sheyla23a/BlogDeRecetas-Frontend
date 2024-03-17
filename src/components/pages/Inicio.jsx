@@ -56,7 +56,7 @@ const Inicio = () => {
           {recetas && recetas.length > 0 ? (
             recetas
               .slice(0, 3)
-              .map((receta) => <ItemRecetas key={receta.id} receta={receta} />)
+              .map((receta) => <ItemRecetas key={receta._id} receta={receta} />)
           ) : (
             <p className="text-center fw-bold">No hay recetas disponibles</p>
           )}

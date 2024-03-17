@@ -30,7 +30,7 @@ const Recetas = () => {
       <Row className="mb-4 mt-5 ms-4">
           {recetas.map(receta => (
               <ItemRecetas 
-                  key={receta.id}
+                  key={receta._id}
                   receta={receta}
               />
           ))}

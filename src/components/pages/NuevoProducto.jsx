@@ -22,7 +22,7 @@ const NuevoProducto = ({ editar, titulo }) => {
 
   const productoValidado = async (receta) => {
     if (editar) {
-      const respuesta = await editarReceta(receta, id);
+      const respuesta = await editarReceta(receta, _id);
       const { nombreReceta } = receta;
 
       if (respuesta.status === 200) {

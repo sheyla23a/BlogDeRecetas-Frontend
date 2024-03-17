@@ -44,7 +44,7 @@ const Administrador = () => {
           {recetas && recetas.length > 0 ? (
             recetas.map((receta) => (
               <ItemTablaRecetas
-                key={receta.id}
+                key={receta._id}
                 receta={receta}
                 setRecetas={setRecetas}
               />

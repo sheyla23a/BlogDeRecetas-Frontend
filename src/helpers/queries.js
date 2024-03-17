@@ -25,9 +25,9 @@ const crearRecetaAPI = async (recetaNueva) => {
   }
 };
 
-const editarReceta = async (recetaModificada, id) => {
+const editarReceta = async (recetaModificada, _id) => {
   try {
-    const respuesta = await fetch(`${URL_Recetas}/${id}`, {
+    const respuesta = await fetch(`${URL_Recetas}/${_id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -41,18 +41,18 @@ const editarReceta = async (recetaModificada, id) => {
   }
 };
 
-const obtenerRecetasAPI = async (id) => {
+const obtenerRecetasAPI = async (_id) => {
   try {
-    const respuesta = await fetch(`${URL_Recetas}/${id}`);
+    const respuesta = await fetch(`${URL_Recetas}/${_id}`);
     return respuesta;
   } catch (error) {
     console.log(error);
   }
 };
 
-const borrarRecetaAPI = async (id) => {
+const borrarRecetaAPI = async (_id) => {
   try {
-    const respuesta = await fetch(`${URL_Recetas}/${id}`, {
+    const respuesta = await fetch(`${URL_Recetas}/${_id}`, {
       method: "DELETE",
     });
     console.log(respuesta);
