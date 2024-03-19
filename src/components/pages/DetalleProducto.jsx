@@ -14,7 +14,7 @@ const DetalleProducto = () => {
   const consultarAPI = async () => {
     try {
       const respuesta = await leerRecetasAPI();
-      const recetaEncontrada = respuesta.find((receta) => receta._id === _id);
+      const recetaEncontrada = respuesta.find((receta) => receta.id === id);
       setReceta(recetaEncontrada);
     } catch (error) {
       console.log(error);
