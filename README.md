@@ -3,11 +3,11 @@
 Crea una aplicación web, que permita mostrar un blog de recetas de cocina en una página, desde otra pagina debo poder agregar, modificar o quitar las recetas y estas deben estar almacenadas en el localstorage o json-server.
 
 ## Enlace del Proyecto: 
-[Doña Pirola](https://github.com/juanchyquintana/blogRecetasRolling)
+[Doña Pirola]((https://github.com/sheyla23a/BlogDeRecetas-Frontend.git))
 
 ![Logo del Proyecto](./src/assets/logoDoñaPirola.png)
 
-## Participantes del Proyecto 😄
+## Autora del proyecto😄
 - Sheyla Astorga ✅
 
 ## Librerías 📖
@@ -24,7 +24,7 @@ Crea una aplicación web, que permita mostrar un blog de recetas de cocina en un
 2. Copia y pega el siguiente código:
 
 ``` 
-git clone https://github.com/juanchyquintana/blogRecetasRolling
+git clone (https://github.com/sheyla23a/BlogDeRecetas-Frontend.git)
 ```
 
 3. npm install 
