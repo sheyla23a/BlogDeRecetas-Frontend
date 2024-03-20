@@ -9,16 +9,15 @@ Crea una aplicación web, que permita mostrar un blog de recetas de cocina en un
 
 ## Participantes del Proyecto 😄
 - Sheyla Astorga ✅
-- Natalia del Valle Morales ✅
-- Juan Diego Quintana ✅
 
 ## Librerías 📖
 - Bootstrap v5.3.2
 - React-Bootstrap
 - React-Form-Hook
 - React-router-dom
-- Json-server
 - SweetAlert v2
+- mongoose
+- express
 
 ## Pasos para clonar el proyecto
 1. Abre la terminal en el lugar que desees.
@@ -30,4 +29,3 @@ git clone https://github.com/juanchyquintana/blogRecetasRolling
 
 3. npm install 
 4. npm run dev
-5. npx json-server db.json
